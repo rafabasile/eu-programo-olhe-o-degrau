@@ -1,0 +1,155 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+body {
+	font-family: 'Vtg Stencil UK No76', sans-serif;
+	background-color: rgb(255, 255, 255);
+  font-weight: 300;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.0);
+  font-family: 'MankSans-Medium', sans-serif;
+  position: fixed;
+	height: 20%;
+  width: 100%;
+}
+
+header img {
+	height: auto;
+	width: 15%;
+	float: left;
+}
+
+nav {
+	float: right;
+}
+
+nav a {
+  font-size: 17px;
+  color: white;
+  margin-right: 40px;
+  padding-top: 50px;
+  padding-bottom: 17px;
+  display: block;
+	text-decoration: none;
+  float: left;
+  transition: all ease 0.3s;
+}
+
+nav a:hover {
+  color: rgb(255, 88, 89);
+}
+
+a {
+	color: rgb(255, 88, 89);
+	text-decoration: none;
+}
+
+a:hover {
+  color: #990099
+}
+
+.post-container {
+	margin: 5% 28% 5% 15%;
+}
+
+img {
+  width: 100%;
+	height: auto;
+	display: block;
+}
+
+h1 {
+	color: rgb(255, 88, 89);
+	font-size: 3em;
+	font-weight: 300;
+	padding: 10pt 0;
+}
+
+h2 {
+	color: rgb(255, 88, 89);
+	font-family: 'MankSans-Medium', sans-serif;
+	font-size: 1.5em;
+	font-weight: 300;
+	padding: 10pt 0;
+}
+
+h4 {
+	color: rgb(60, 60, 60);
+	font-family: 'MankSans', sans-serif;
+	font-size: 1em;
+	font-weight: 500;
+	padding: 5pt 0;
+}
+
+h6 {
+	color: rgb(60, 60, 60);
+	font-family: 'MankSans', sans-serif;
+	font-size: 0.75em;
+	font-weight: 500;
+	padding: 0.5em 0 2em 0;
+}
+
+p {
+	color: rgb(60, 60, 60);
+	font-family: 'MankSans', sans-serif;
+	font-size: 1em;
+	font-weight: 500;
+	padding: 0.5em 0;
+}
+
+b {
+	font-weight: bold;
+}
